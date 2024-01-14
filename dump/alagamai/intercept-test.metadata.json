@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"70133f0fb9a04eb0a3c15f5f3b73e94f","collectionName":"intercept-test","type":"collection"}

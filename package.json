@@ -1,0 +1,25 @@
+{
+	"name": "playwright-mongodb-integration",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"ui-mode": "npx playwright test --ui --project=chromium",
+		"show-html-report": "sudo npx playwright show-report",
+		"test-file1": "npx playwright test example",
+		"debug-mode": "npx playwright test --debug",
+		"codegen": "npx playwright codegen"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@playwright/test": "^1.40.1",
+		"@types/node": "^20.11.0"
+	},
+	"dependencies": {
+		"@faker-js/faker": "^8.3.1",
+		"chance": "^1.1.11",
+		"mongodb": "^6.3.0"
+	}
+}
