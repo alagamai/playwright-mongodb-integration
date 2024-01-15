@@ -18,3 +18,15 @@ test('MongoDB get collection test', async ({}) => {
 test('MongoDB insert_one_record test', async ({}) => {
 	const results = await mongoModule.insert_one_record();
 });
+
+test('MongoDB insert_many_record test', async ({}) => {
+	const results = await mongoModule.insert_many_record();
+});
+
+test('MongoDB get total collection count test', async ({}) => {
+	const results = await mongoModule.get_collection_count();
+});
+
+test('MongoDB sort records in ascending order test', async ({}) => {
+	const results = await mongoModule.sort_collection_by_field('salary');
+});
